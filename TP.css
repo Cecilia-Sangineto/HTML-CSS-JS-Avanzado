@@ -8,25 +8,26 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: rgb(24, 28, 48);
+	display: flex;
+	justify-content: flex-end;
 }
 li {
 	float: right;
 	position: static ;
 	display: inline;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 1%;
-	padding-bottom: 1%;
 }
 
-li button {
-	color: rgb(24, 28, 48);
-	display: block;
-	background-color: white;
+li a {
+	background-color: #E6DDC4;
+    color: #181D31;
+	padding: 15px 20px;
 	text-align: center;
-	padding: 10px 30px;
-	text-decoration: none;
-	border-radius: 0%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px #678983;
 }
 
 .image {
@@ -38,12 +39,38 @@ li button {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	color: white;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 800;
 	text-align: center;
 	text-shadow: 10px 10px 7px black;
 }
-
 .contenido{
-	align-self: center;
+	text-align: center;
+	color:#678983;
+	font-size: 30px;
+	font-weight: bold;
+}
+.footer {
+	color: rgb(24, 28, 48);
+}
+.cont-padre{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
+}
+.contenedor {
+	background-color: #E6DDC4;
+	display: inline-block;
+	padding: 15px 20px;
+	text-align: center;
+	size: 10px;
+	border: 10px;
+	border-color: #181D31;
+}
+main div a {
+  color: white;
+  background-color: #678983;
+  padding: 10px;
+  border-radius: 10px;
 }
