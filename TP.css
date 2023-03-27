@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(24, 28, 48);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(24, 28, 48);
+}
+li {
+	float: right;
+	position: static ;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+li button {
+	color: rgb(24, 28, 48);
+	display: block;
+	background-color: white;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 0%;
+}
+
+.image {
+	background-image: url("imagenes/codigo.jpg");
+	background-size: cover;
+}
+
+.header {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: white;
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+	text-shadow: 10px 10px 7px black;
+}
+
+.contenido{
+	align-self: center;
+}
