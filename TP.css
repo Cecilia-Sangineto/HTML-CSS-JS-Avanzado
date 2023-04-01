@@ -81,14 +81,17 @@ li a {
 	margin: 60px;
 	background-color: var(--colorBeige);
 	border: var(--colorSombraVerde) 5px solid;
-	grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card1 {
 	grid-area: card1;
 }
 
-.card1 {
+.card2 {
 	grid-area: card2;
 }
 
@@ -104,6 +107,7 @@ main article button {
 	width: 40%;
 	box-shadow: 5px 5px var(--colorSombraVerde);
 	border-radius: 10px;
+	margin: 20px;
 }
 
 .footer {
