@@ -81,10 +81,10 @@ li a {
 	margin: 60px;
 	background-color: var(--colorBeige);
 	border: var(--colorSombraVerde) 5px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .card1 {
@@ -138,35 +138,33 @@ main article button {
 	margin: auto;
 }
 
-.footer-right{
+.footer-right {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 30px;
 }
 
-.informacion{
-	padding: auto;
- 	display: block;
+.card-hist {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
 }
 
-.info-title{
-	padding: 40px;
-	font-size: 40px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: bold;
+main div h2 {
+	font-size: 50px;
 	color: var(--colorSombraVerde);
-	text-shadow: 5px 5px var(--colorNegro);
-	text-align: center;
-	margin: auto;
 }
-.historia{
-	padding: 40px;
-	color: var(--colorBeige);
-	text-align: center;
-	margin: auto;
+
+.text-hist {
+	width: 40%;
+	font-size: 20px;
+	color: var(--colorBeige)
 }
-section{
-	display: flex;
-	justify-content: space-between;
+main div div {
+	width: auto;
+	font-size: 15px;
+	color: var(--colorBeige)
 }
