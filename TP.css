@@ -17,7 +17,7 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	align-items: center;
 }
 
 .icono {
@@ -29,14 +29,17 @@ ul {
 }
 
 li {
-	padding: 10px;
 	list-style-type: none;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-li a {
+li button {
 	background-color: var(--colorBeige);
 	color: var(--colorAzulOscuro);
-	padding: 15px 20px;
+	border: none;
+	padding: 15px 15px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
@@ -44,7 +47,7 @@ li a {
 	box-shadow: 5px 5px var(--colorSombraVerde);
 }
 
-li a:active{
+li button:active {
 	translate: 5px 5px;
 	box-shadow: none;
 }
@@ -117,7 +120,7 @@ main article button {
 
 main article button:active {
 	translate: 5px 5px;
-    box-shadow: none;
+	box-shadow: none;
 }
 
 .footer {
@@ -157,10 +160,10 @@ main article button:active {
 
 .card-hist {
 	display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 80px 50px;
-    gap: 20px;
+	justify-content: space-around;
+	align-items: center;
+	padding: 80px 50px;
+	gap: 20px;
 }
 
 main div h2 {
@@ -173,6 +176,7 @@ main div h2 {
 	font-size: 20px;
 	color: var(--colorBeige)
 }
+
 main div div {
 	width: auto;
 	font-size: 15px;
