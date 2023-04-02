@@ -65,7 +65,7 @@ li button:active {
 	font-size: 40px;
 	font-weight: 800;
 	text-align: center;
-	text-shadow: 1px 1px var(--colorGris), 6px 6px var(--colorNegro);
+	text-shadow: 1px 1px var(--colorBlanco), 6px 6px var(--colorNegro);
 }
 
 .contenido {
@@ -169,6 +169,7 @@ main article button:active {
 main div h2 {
 	font-size: 50px;
 	color: var(--colorSombraVerde);
+	text-align: center;
 }
 
 .text-hist {
@@ -181,4 +182,26 @@ main div div {
 	width: auto;
 	font-size: 15px;
 	color: var(--colorBeige)
+}
+
+.contenedor{
+	display: block;
+	justify-content: center;
+	padding-top: 10%;
+	padding-bottom: 50px;
+}
+video{
+	margin: 0 auto;
+ 	width: 700px;
+ 	display: block;
+}
+
+.titulo-video{
+	margin: 0 auto;
+	width: 800px;
+	font-size: 40px;
+	color: var(--colorSombraVerde);
+	display: block;
+	text-align: center;
+	text-shadow: 2px 2px var(--colorNegro);
 }
