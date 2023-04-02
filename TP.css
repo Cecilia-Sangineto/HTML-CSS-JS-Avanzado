@@ -44,6 +44,11 @@ li a {
 	box-shadow: 5px 5px var(--colorSombraVerde);
 }
 
+li a:active{
+	translate: 5px 5px;
+	box-shadow: none;
+}
+
 .title-bgr {
 	background-image: url("imagenes/codigo.jpg");
 	background-attachment: fixed;
@@ -108,6 +113,11 @@ main article button {
 	box-shadow: 5px 5px var(--colorSombraVerde);
 	border-radius: 10px;
 	margin: 20px;
+}
+
+main article button:active {
+	translate: 5px 5px;
+    box-shadow: none;
 }
 
 .footer {
