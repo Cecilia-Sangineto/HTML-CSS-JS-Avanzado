@@ -2,8 +2,6 @@
 	--colorBeige: #E6DDC4;
 	--colorAzulOscuro: #181D31;
 	--colorSombraVerde: #678983;
-	--colorGris: rgb(128, 128, 128);
-	--colorAzulado: ;
 	--colorNegro: black;
 	--colorBlanco: white;
 }
@@ -136,10 +134,39 @@ main article button {
 	font-weight: bold;
 	display: grid;
 	justify-content: center;
+	text-align: center;
+	margin: auto;
 }
 
-.footer-right {
-	display: grid;
-	align-content: center;
+.footer-right{
+	display: flex;
+	align-items: center;
 	justify-content: center;
+	padding: 30px;
+}
+
+.informacion{
+	padding: auto;
+ 	display: block;
+}
+
+.info-title{
+	padding: 40px;
+	font-size: 40px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: var(--colorSombraVerde);
+	text-shadow: 5px 5px var(--colorNegro);
+	text-align: center;
+	margin: auto;
+}
+.historia{
+	padding: 40px;
+	color: var(--colorBeige);
+	text-align: center;
+	margin: auto;
+}
+section{
+	display: flex;
+	justify-content: space-between;
 }
