@@ -12,8 +12,8 @@
     <nav>
         <img class="icono" src="imagenes/codigo.jpg">
         <ul>
-            <li><button>HISTORIA</button></li>
-            <li><button>JUGUEMOS</button></li>
+            <li><button id="botonHistoria">HISTORIA</button></li>
+            <li><button id="botonJuego">JUGUEMOS</button></li>
         </ul>
     </nav>
 
@@ -86,15 +86,29 @@
                 </p>
             </div>
         </div>
-        <div class="contenedor">
-            <p class="titulo-video">Un breve video para complementar lo visto</p>
-            <video poster="imagenes/img-video.jpg" id="video">
-                <source src="videos/historia-Comp.mp4" type="video/mp4">
-                <source src="videos/historia-Comp.ogv" type="video/ogv">
-            </video>
-        </div>
+        <article class="contenedor">
 
-    </main>
+                <p class="titulo-video">Un breve video para complementar lo visto</p>
+
+                <section class="seccion-video">
+                    <video poster="imagenes/img-video.jpg" id="video">
+                        <source src="videos/historia-Comp.mp4" type="video/mp4">
+                        <source src="videos/historia-Comp.ogv" type="video/ogv">
+                    </video>
+
+                    <div class="barra">
+                        <div class="botonera">
+                            <button id="play"><img src="imagenes/play.svg"></button>
+                            <button id="pausa"><img src="imagenes/pausa.svg"></button>
+                        </div>
+                        <div class="duracion">Duracion de video</div>
+                    </div>
+
+                </section>
+
+        </article>
+        
+        </main>
 
     <footer class="footer">
         <div class="footer-left">
@@ -106,7 +120,7 @@
         </div>
     </footer>
 
-    <script src="./TP.js"></script>
+    <script src="./TP-Historia.js"></script>
 
 </body>
 
