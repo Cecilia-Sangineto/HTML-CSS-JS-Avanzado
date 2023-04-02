@@ -11,6 +11,9 @@
 body {
 	background-color: var(--colorAzulOscuro);
 	margin: 0px;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
 }
 
 nav {
@@ -43,7 +46,7 @@ li a {
 	box-shadow: 5px 5px var(--colorSombraVerde);
 }
 
-.image {
+.title-bgr {
 	background-image: url("imagenes/codigo.jpg");
 	background-attachment: fixed;
 	background-size: cover;
@@ -57,7 +60,6 @@ li a {
 	font-weight: 800;
 	text-align: center;
 	text-shadow: 1px 1px var(--colorGris), 6px 6px var(--colorNegro);
-
 }
 
 .contenido {
@@ -76,7 +78,7 @@ li a {
 }
 
 .card {
-	height: 600px;
+	height: 500px;
 	width: 400px;
 	margin: 60px;
 	background-color: var(--colorBeige);
@@ -114,7 +116,6 @@ main article button {
 	background-color: var(--colorSombraVerde);
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
 }
 
 .footer-left {
@@ -135,7 +136,6 @@ main article button {
 	font-weight: bold;
 	display: grid;
 	justify-content: center;
-	align-content: center;
 }
 
 .footer-right {
