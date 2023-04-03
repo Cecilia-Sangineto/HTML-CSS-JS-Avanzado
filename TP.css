@@ -194,7 +194,7 @@ main div div {
 .seccion-video{
 	background-color: var(--colorNegro);
 	margin: 0 auto;
-	width: 60%;
+	width:fit-content;
 	display: block;
 }
 
@@ -219,9 +219,15 @@ video{
 	justify-content: space-between;
 	background-color: var(--colorGris);
 	border-radius: 10px;
+	height: fit-content;
 }
 .duracion{
 
+}
+.botonera{
+	width: fit-content;
+	height: fit-content;
+	margin: 0;
 }
 #play{
 	background-color: var(--colorBeige);
@@ -233,6 +239,7 @@ video{
 	border-radius: 10px;
 	box-shadow: 5px 5px var(--colorSombraVerde);
 	width: 60px;
+	height: fit-content;
 }
 #play:active{
 	box-shadow: none;
@@ -248,6 +255,7 @@ video{
 	border-radius: 10px;
 	box-shadow: 5px 5px var(--colorSombraVerde);
 	width: 60px;
+	height: fit-content;
 }
 #pausa:active{
 	box-shadow: none;
