@@ -60,6 +60,7 @@ li button:active {
 }
 
 .header {
+	margin: 0 auto;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	color: white;
@@ -70,7 +71,6 @@ li button:active {
 }
 
 .contenido {
-	text-align: center;
 	color: var(--colorSombraVerde);
 	font-size: 30px;
 	font-weight: bold;
