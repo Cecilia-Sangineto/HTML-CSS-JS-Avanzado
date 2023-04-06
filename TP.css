@@ -21,21 +21,25 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .logo{
 	height: 80px;
     display: grid;
     justify-content: center;
     align-content: center;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	perspective: 35px;
 }
+
 .rectangulo-1-padre{
 	background-color: var(--colorBeige);
 	width: 50px;
 	height: 30px;
 	border-radius: 5px;
 	display: grid;
+	margin-bottom: 5px;
+	animation: animacion1 3s
 }
 
 .rectangulo-1-hijo{
@@ -46,20 +50,35 @@ nav {
 	align-self: center;
 	margin: auto;
 }
+
 .rectangulo-2-padre{
 	background-color: var(--colorBeige);
 	width: 50px;
     height: 30;
 	display: grid;
 	transform: rotateX(45deg);
+	animation: animacion1 3s
 }
+
 .rectangulo-2-hijo{
 	background-color: var(--colorAzulClaro);
 	width: 45px;
 	height: 20px;
 	align-self: center;
-	transform: rotateX(45deg);
 	margin: auto;
+	transform: rotateX(45deg);
+}
+
+@keyframes animacion1 {
+	from {
+		translate: 0px -30px;
+		opacity: 0;
+	}
+
+	to {
+		translate: 0px 0px;
+		opacity: 1;
+	}
 }
 
 ul {
