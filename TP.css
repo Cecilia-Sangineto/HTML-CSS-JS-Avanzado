@@ -5,6 +5,7 @@
 	--colorNegro: black;
 	--colorBlanco: white;
 	--colorGris: grey;
+	--colorAzulClaro: rgb(73, 85, 121);
 }
 
 body {
@@ -20,9 +21,45 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
-
-.icono {
+.logo{
 	height: 80px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+	margin: 0px;
+	padding: 0px;
+	perspective: 35px;
+}
+.rectangulo-1-padre{
+	background-color: var(--colorBeige);
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	display: grid;
+}
+
+.rectangulo-1-hijo{
+	background-color: var(--colorAzulClaro);
+	width: 45px;
+	height: 20px;
+	border-radius: 5px;
+	align-self: center;
+	margin: auto;
+}
+.rectangulo-2-padre{
+	background-color: var(--colorBeige);
+	width: 50px;
+    height: 30;
+	display: grid;
+	transform: rotateX(45deg);
+}
+.rectangulo-2-hijo{
+	background-color: var(--colorAzulClaro);
+	width: 45px;
+	height: 20px;
+	align-self: center;
+	transform: rotateX(45deg);
+	margin: auto;
 }
 
 ul {
