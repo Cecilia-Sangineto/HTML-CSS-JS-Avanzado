@@ -75,6 +75,8 @@ li button:active {
 	font-size: 30px;
 	font-weight: bold;
 	text-shadow: 3px 3px var(--colorNegro);
+	text-align: center;
+	padding-bottom: 100px;
 }
 
 .cont-padre {
