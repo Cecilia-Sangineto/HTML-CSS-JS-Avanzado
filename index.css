@@ -32,41 +32,26 @@ nav {
 	perspective: 35px;
 }
 
+.rectangulo-padre{
+	background-color: var(--colorBeige);
+	width: 50px;
+    height: 30px;
+	display: grid;
+	animation: animacion1 3s
+}
+
+.rectangulo-hijo{
+	background-color: var(--colorAzulClaro);
+	width: 45px;
+	height: 20px;
+	border-radius: 5px;
+	align-self: center;
+	margin: auto;
+}
+
 .rectangulo-1-padre{
-	background-color: var(--colorBeige);
-	width: 50px;
-	height: 30px;
 	border-radius: 5px;
-	display: grid;
 	margin-bottom: 5px;
-	animation: animacion1 3s
-}
-
-.rectangulo-1-hijo{
-	background-color: var(--colorAzulClaro);
-	width: 45px;
-	height: 20px;
-	border-radius: 5px;
-	align-self: center;
-	margin: auto;
-}
-
-.rectangulo-2-padre{
-	background-color: var(--colorBeige);
-	width: 50px;
-    height: 30;
-	display: grid;
-	transform: rotateX(45deg);
-	animation: animacion1 3s
-}
-
-.rectangulo-2-hijo{
-	background-color: var(--colorAzulClaro);
-	width: 45px;
-	height: 20px;
-	align-self: center;
-	margin: auto;
-	transform: rotateX(45deg);
 }
 
 @keyframes animacion1 {
