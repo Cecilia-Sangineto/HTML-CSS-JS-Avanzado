@@ -6,15 +6,6 @@ botonJuego.addEventListener('click', () => {
     window.location.href="./juego.html";
 })
 
-
 logo.addEventListener('click', () => {
     window.location.href="./index.html";
-})
-
-botonDeIrAHistoria.addEventListener('click', () => {
-    window.location.href="./historia.html";
-})
-
-botonDeIrAJuego.addEventListener('click', () => {
-    window.location.href="./juego.html";
 })
