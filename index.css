@@ -21,11 +21,19 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
-.logo{
-	margin: auto 0px;
-	animation: animacion1 3s
+
+.computadora-primer-plano {
+	animation-name: animacion-primer-plano;
+	animation-duration: 1s;
 }
-@keyframes animacion1 {
+
+.computadora-segundo-plano {
+	animation-name: animacion-segundo-plano;
+	animation-duration: 2s;
+}
+
+
+@keyframes animacion-primer-plano{
 	from {
 		translate: 0px -30px;
 		opacity: 0;
@@ -35,6 +43,19 @@ nav {
 		translate: 0px 0px;
 		opacity: 1;
 	}
+}
+
+@keyframes animacion-segundo-plano{
+	0%   {translate: 0px -30px;
+		opacity: 0;}
+  	25%  {translate: 0px -30px;
+		opacity: 0;}
+ 	50%  {translate: 0px -30px;
+		opacity: 0;}
+  	75%  {translate: 0px 0px;
+		opacity: 0.5;}
+ 	100% {translate: 0px 0px;
+		opacity: 1;}
 }
 
 ul {
@@ -199,27 +220,27 @@ main div div {
 	color: var(--colorBeige)
 }
 
-.contenedor{
+.contenedor {
 	margin-top: 10%;
 	margin-bottom: 5%;
 	text-align: center;
 }
 
-.seccion-video{
+.seccion-video {
 	background-color: var(--colorNegro);
 	margin: 0 auto;
-	width:fit-content;
+	width: fit-content;
 	display: block;
 }
 
-video{
- 	width: 700px;
+video {
+	width: 700px;
 	margin: 0 auto;
 	width: 100%;
 	display: block;
 }
 
-.titulo-video{
+.titulo-video {
 	margin: 0 auto;
 	width: fit-content;
 	font-size: 40px;
@@ -228,24 +249,28 @@ video{
 	text-align: ceter;
 	text-shadow: 2px 2px var(-n-colorNegro);
 }
-.barra{
+
+.barra {
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--colorGris);
 	border-radius: 10px;
 	height: fit-content;
 }
-.video-contador{
-		align-items: center;
-		justify-content: space-between;
-		padding: 30px;
+
+.video-contador {
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
 }
-.botonera{
+
+.botonera {
 	width: fit-content;
 	height: fit-content;
 	margin: 0;
 }
-#play{
+
+#play {
 	background-color: var(--colorBeige);
 	color: var(--colorAzulOscuro);
 	border: none;
@@ -257,11 +282,13 @@ video{
 	width: 60px;
 	height: fit-content;
 }
-#play:active{
+
+#play:active {
 	box-shadow: none;
 	translate: 5px 5px;
 }
-#pausa{
+
+#pausa {
 	background-color: var(--colorBeige);
 	color: var(--colorAzulOscuro);
 	border: none;
@@ -273,7 +300,8 @@ video{
 	width: 60px;
 	height: fit-content;
 }
-#pausa:active{
+
+#pausa:active {
 	box-shadow: none;
 	translate: 5px 5px;
 }
