@@ -13,4 +13,3 @@ botonDeIrAHistoria.addEventListener('click', () => {
 botonDeIrAJuego.addEventListener('click', () => {
     window.location.href="./TP-Juego.html";
 })
-
