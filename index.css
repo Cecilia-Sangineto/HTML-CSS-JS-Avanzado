@@ -21,39 +21,10 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
-
 .logo{
-	height: 80px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-	margin: 0;
-	padding: 0;
-	perspective: 35px;
-}
-
-.rectangulo-padre{
-	background-color: var(--colorBeige);
-	width: 50px;
-    height: 30px;
-	display: grid;
+	margin: auto 0px;
 	animation: animacion1 3s
 }
-
-.rectangulo-hijo{
-	background-color: var(--colorAzulClaro);
-	width: 45px;
-	height: 20px;
-	border-radius: 5px;
-	align-self: center;
-	margin: auto;
-}
-
-.rectangulo-1-padre{
-	border-radius: 5px;
-	margin-bottom: 5px;
-}
-
 @keyframes animacion1 {
 	from {
 		translate: 0px -30px;
