@@ -352,7 +352,7 @@ video {
 }
 
 #mensaje {
-	color: black;
+	color: var(--colorBeige);
 	text-align: center;
 	display: none;
 }
@@ -365,10 +365,30 @@ video {
 	display: block;
 }
 
-.ganaste .placeholder {
-	outline: none;
+.perdiste {
+	background-color: red;
 }
 
-.ganaste #piezas {
-	display: none;
+.perdiste #mensaje {
+	display: block;
+}
+
+
+#botonReiniciar {
+	background-color: var(--colorBeige);
+	color: var(--colorAzulOscuro);
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px var(--colorSombraVerde);
+	width: 300px;
+	height: fit-content;
+	margin: 20px;
+}
+
+#botonReiniciar:active {
+	box-shadow: none;
+	translate: 5px 5px;
 }
