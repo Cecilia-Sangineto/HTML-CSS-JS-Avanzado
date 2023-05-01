@@ -305,3 +305,70 @@ video {
 	box-shadow: none;
 	translate: 5px 5px;
 }
+
+.container {
+	display: grid;
+	place-items: center;
+}
+
+#piezas {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 800px;
+	margin: 5px;
+	display:flex;
+}
+
+#puzzle {
+	width: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.pieza {
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	margin: 10px;
+}
+
+.placeholder {
+	background-color: grey;
+	outline: 1px solid #333;
+	width: 240px;
+	height: 340px;
+	display: grid; 
+	place-items: center;
+	text-decoration: none;
+}
+
+.placeholder .pieza {
+	margin: 5px;
+}
+
+.placeholder:hover {
+	background-color: #333;
+}
+
+#mensaje {
+	color: black;
+	text-align: center;
+	display: none;
+}
+
+.ganaste {
+	background-color: #B3D67C;
+}
+
+.ganaste #mensaje {
+	display: block;
+}
+
+.ganaste .placeholder {
+	outline: none;
+}
+
+.ganaste #piezas {
+	display: none;
+}
