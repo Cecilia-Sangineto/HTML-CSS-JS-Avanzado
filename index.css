@@ -69,23 +69,6 @@ li {
 	padding-right: 10px;
 }
 
-li button {
-	background-color: var(--colorBeige);
-	color: var(--colorAzulOscuro);
-	border: none;
-	padding: 15px 15px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-	border-radius: 10px;
-	box-shadow: 5px 5px var(--colorSombraVerde);
-}
-
-li button:active {
-	translate: 5px 5px;
-	box-shadow: none;
-}
-
 .title-bgr {
 	background-image: url("imagenes/codigo.jpg");
 	background-attachment: fixed;
@@ -109,6 +92,9 @@ li button:active {
 	font-weight: bold;
 	text-shadow: 3px 3px var(--colorNegro);
 	text-align: center;
+}
+
+.historia-subtitulo{
 	padding-bottom: 100px;
 }
 
@@ -179,7 +165,7 @@ main article button:active {
 	padding: 30px;
 }
 
-.Programacion-e-historia {
+.programacion-e-historia {
 	font-weight: bold;
 	display: grid;
 	justify-content: center;
@@ -233,7 +219,7 @@ main div div {
 	display: block;
 }
 
-video {
+.video {
 	width: 700px;
 	margin: 0 auto;
 	width: 100%;
@@ -264,12 +250,6 @@ video {
 	padding: 30px;
 }
 
-.botonera {
-	width: fit-content;
-	height: fit-content;
-	margin: 0;
-}
-
 .button-design{
 	background-color: var(--colorBeige);
 	color: var(--colorAzulOscuro);
@@ -279,8 +259,20 @@ video {
 	font-size: 20px;
 	border-radius: 10px;
 	box-shadow: 5px 5px var(--colorSombraVerde);
-	width: 60px;
-	height: fit-content;
+	height: 40px;
+}
+
+.long-button {
+	width: 300px;
+}
+
+.short-button{
+	width: fit-content;
+	min-width: 40px;
+}
+
+.restart-button{
+	margin-bottom: 200px;
 }
 
 .button-design:active{
@@ -348,7 +340,7 @@ video {
 }
 
 .perdiste {
-	background-color: red;
+	background-color: tomato;
 }
 
 .perdiste #mensaje {

@@ -25,28 +25,28 @@ const mensaje = document.getElementById('mensaje');
 
 let terminado = imagenes.length;
 
-botonReiniciar.addEventListener('click', reiniciarJuego);
+reiniciar.addEventListener('click', reiniciarJuego);
 
-function iniciarJuego(){
-    while (imagenes.length) {
-        const index = Math.floor(Math.random() * imagenes.length);
-        const div = document.createElement('div');
-        div.className = 'pieza';
-        div.id = imagenes[index];
-        div.draggable = true;
-        div.style.backgroundImage = `url("recursos/${imagenes[index]}.png")`;
-        piezas.appendChild(div);
-        imagenes.splice(index, 1);
-    }
-    
-    for (let i = 0; i < terminado; i++) {
-        const div = document.createElement('div');
-        div.className = 'placeholder';
-        div.dataset.id = i;
-        div.innerText = "Arrastre y suelte la imagen aquí."
-        puzzle.appendChild(div);
-    }
+
+while (imagenes.length) {
+    const index = Math.floor(Math.random() * imagenes.length);
+    const div = document.createElement('div');
+    div.className = 'pieza';
+    div.id = imagenes[index];
+    div.draggable = true;
+    div.style.backgroundImage = `url("recursos/${imagenes[index]}.png")`;
+    piezas.appendChild(div);
+    imagenes.splice(index, 1);
 }
+
+for (let i = 0; i < terminado; i++) {
+    const div = document.createElement('div');
+    div.className = 'placeholder';
+    div.dataset.id = i;
+    div.innerText = "Arrastre y suelte la imagen aquí."
+    puzzle.appendChild(div);
+}
+
 
 function reiniciarJuego() {
         window.location.reload();
@@ -108,5 +108,3 @@ function eliminarElementos(div) {
         div.removeChild(hijos[i]);
     }
 }
-
-iniciarJuego();
