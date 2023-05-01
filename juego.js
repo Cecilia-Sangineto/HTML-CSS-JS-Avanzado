@@ -98,4 +98,4 @@ function sonIguales(arreglo1, arreglo2) {
     
     // Si llegamos hasta aquí, los arreglos son iguales
     return true;
-  }
+}
